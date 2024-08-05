@@ -1,0 +1,127 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+html, body {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    background-color: rgb(5, 5, 49);
+    color: white;
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.header li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.firstdiv{
+    display: flex;
+    background-color: rgb(5, 5, 49);
+}
+
+#first-left{
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+#first-left button{
+    background-color: rgb(18, 18, 231);
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#first-right{
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.secdiv h2 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#imgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+#imgsecdiv{
+    border: 1px solid black;
+}
+
+.thirdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(211, 197, 197, 0.795);
+}
+
+#quotediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#quoteOwnerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.fourthdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(57, 105, 238, 0.884);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 5, 49);
+    color: white;
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
